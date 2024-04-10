@@ -80,7 +80,7 @@ figure(1);
 plot(z, I ./ max(I));
 hold on;
 plot(z, I1 ./ max(I1));
-plot(z, ones(1, 100) .* 0.5);
+#plot(z, ones(1, 100) .* 0.5);
 title('Продольное распределение интенсивности');
 legend('Для объектива', 'Для линзы', 'FWHM');
 xlabel('z, мкм');
